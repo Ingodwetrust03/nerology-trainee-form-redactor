@@ -1,0 +1,96 @@
+@import 'material-icons/iconfont/material-icons.css';
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.trainees {
+  width: 25vw;
+  border: solid 1px grey;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.trainees-heading, form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25vw;
+  padding: 30px;
+}
+
+.trainees > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  padding: 30px 0;
+  width: calc(25vw + 60px);
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form input, form button {
+  height: 50px;
+  border-radius: 10px;
+  padding: 0 10px;
+  margin-top: 15px;
+  background-color: #fff;
+  border: solid 1px grey;
+}
+
+form button {
+  margin-top: 35px;
+  width: 65px;
+}
+
+.btns-row i{
+  cursor: pointer;
+}
